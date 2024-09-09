@@ -4,7 +4,7 @@ select
 
 from Fruit_Picking f
 
-left join People p ON f.person_id = p.person_id
+join People p ON f.person_id = p.person_id
 
 group by p.person_name
 
